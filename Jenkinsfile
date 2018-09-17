@@ -3,17 +3,17 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        sh 'echo build'
+        echo build
       }
     }
     stage('code upload') {
       steps {
-        sh 'echo code upload'
+        echo code upload
       }
     }
     stage('activate code version') {
       steps {
-        sh 'echo activate code version'
+        echo activate code version
       }
     }
   }
